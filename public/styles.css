@@ -1,0 +1,105 @@
+:root {
+    --bkg-color: rgb(47, 52, 52);
+    --fg-color: rgb(255, 255, 255);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: var(--bkg-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid var(--fg-color);
+    
+}
+
+h1 {
+    background-color: var(--bkg-color);
+    color: var(--fg-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 4px solid var(--fg-color);
+
+}
+
+label {
+    font-size: 20px;
+    background-color: var(--bkg-color);
+    color: var(--fg-color);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#url {
+    width: 100%;
+    border: 4px solid var(--bkg-color);
+    font-size: 20px;
+    padding-left: 7px;
+}
+
+#submit {
+    height: 100px;
+    font-size: 30px;
+    background-color: var(--bkg-color);
+    color: var(--fg-color);
+    border-top: 8px solid var(--fg-color);
+    transition: 200ms;
+}
+
+#submit:hover {
+    background-color: var(--fg-color);
+    color: var(--bkg-color);
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid var(--bkg-color);
+}
+
+.img-container {
+    background-color: var(--bkg-color);
+    border: 4px solid var(--fg-color);
+}
